@@ -1,0 +1,35 @@
+<panel>
+  <style>
+    .root {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8;
+      padding-left: 16;
+      padding-right: 16;
+      gap: 20;
+      background-color: rgba(0, 8, 20, 0.75);
+      border-radius: 8;
+      border-color: #004466;
+      border-width: 1;
+    }
+    .label {
+      font-size: 16;
+      color: #00ccff;
+    }
+    .combo {
+      font-size: 14;
+      color: #ffcc00;
+    }
+    .lives {
+      font-size: 14;
+      color: #00ffcc;
+    }
+  </style>
+  <element class="root">
+    <text name="txt-score" class="label">Score: 0</text>
+    <text name="txt-level" class="label">Lv: 1</text>
+    <text name="txt-combo" class="combo"></text>
+    <text name="txt-lives" class="lives">Lives: 3</text>
+  </element>
+</panel>

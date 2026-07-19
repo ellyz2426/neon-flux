@@ -1,0 +1,63 @@
+<panel>
+  <style>
+    .root {
+      flex-direction: column;
+      align-items: center;
+      padding: 24;
+      gap: 14;
+      background-color: rgba(0, 8, 20, 0.92);
+      border-radius: 16;
+      border-color: #0088ff;
+      border-width: 2;
+    }
+    .title {
+      font-size: 28;
+      color: #00ccff;
+    }
+    .label {
+      font-size: 16;
+      color: #4488aa;
+    }
+    .row {
+      flex-direction: row;
+      gap: 12;
+      align-items: center;
+    }
+    .btn {
+      font-size: 18;
+      color: #00ffcc;
+      background-color: rgba(0, 40, 80, 0.8);
+      padding: 10;
+      border-radius: 8;
+      border-color: #006688;
+      border-width: 1;
+      width: 50;
+      text-align: center;
+    }
+    .back {
+      font-size: 18;
+      color: #00ffcc;
+      background-color: rgba(0, 40, 80, 0.8);
+      padding: 12;
+      border-radius: 8;
+      border-color: #006688;
+      border-width: 1;
+      width: 250;
+      text-align: center;
+    }
+  </style>
+  <element class="root">
+    <text class="title">SETTINGS</text>
+    <element class="row">
+      <text name="btn-vol-down" class="btn">-</text>
+      <text name="txt-volume" class="label">Volume: 70%</text>
+      <text name="btn-vol-up" class="btn">+</text>
+    </element>
+    <element class="row">
+      <text name="btn-speed-down" class="btn">-</text>
+      <text name="txt-speed" class="label">Speed: 1.00x</text>
+      <text name="btn-speed-up" class="btn">+</text>
+    </element>
+    <text name="btn-back" class="back">BACK</text>
+  </element>
+</panel>

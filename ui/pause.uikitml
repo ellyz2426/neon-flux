@@ -1,0 +1,39 @@
+<panel>
+  <style>
+    .root {
+      flex-direction: column;
+      align-items: center;
+      padding: 24;
+      gap: 16;
+      background-color: rgba(0, 8, 20, 0.92);
+      border-radius: 16;
+      border-color: #0088ff;
+      border-width: 2;
+    }
+    .title {
+      font-size: 32;
+      color: #00ccff;
+    }
+    .score {
+      font-size: 18;
+      color: #4488aa;
+    }
+    .btn {
+      font-size: 18;
+      color: #00ffcc;
+      background-color: rgba(0, 40, 80, 0.8);
+      padding: 12;
+      border-radius: 8;
+      border-color: #006688;
+      border-width: 1;
+      width: 250;
+      text-align: center;
+    }
+  </style>
+  <element class="root">
+    <text class="title">PAUSED</text>
+    <text name="txt-score" class="score">Score: 0</text>
+    <text name="btn-resume" class="btn">RESUME</text>
+    <text name="btn-menu" class="btn">MAIN MENU</text>
+  </element>
+</panel>

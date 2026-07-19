@@ -1,0 +1,52 @@
+<panel>
+  <style>
+    .root {
+      flex-direction: column;
+      align-items: center;
+      padding: 24;
+      gap: 12;
+      background-color: rgba(0, 8, 20, 0.92);
+      border-radius: 16;
+      border-color: #0088ff;
+      border-width: 2;
+    }
+    .title {
+      font-size: 28;
+      color: #ffcc00;
+    }
+    .stat {
+      font-size: 16;
+      color: #00ccff;
+    }
+    .detail {
+      font-size: 14;
+      color: #4488aa;
+    }
+    .unlocked {
+      font-size: 13;
+      color: #00ffcc;
+    }
+    .btn {
+      font-size: 18;
+      color: #00ffcc;
+      background-color: rgba(0, 40, 80, 0.8);
+      padding: 12;
+      border-radius: 8;
+      border-color: #006688;
+      border-width: 1;
+      width: 250;
+      text-align: center;
+    }
+  </style>
+  <element class="root">
+    <text name="txt-title" class="title">GAME OVER</text>
+    <text name="txt-score" class="stat">Score: 0</text>
+    <text name="txt-level" class="detail">Level: 1</text>
+    <text name="txt-matches" class="detail">Matches: 0</text>
+    <text name="txt-tiles" class="detail">Tiles Placed: 0</text>
+    <text name="txt-best" class="detail">Best: 0</text>
+    <text name="txt-unlocked" class="unlocked"></text>
+    <text name="btn-retry" class="btn">PLAY AGAIN</text>
+    <text name="btn-menu" class="btn">MAIN MENU</text>
+  </element>
+</panel>

@@ -1,0 +1,36 @@
+
+> neon-flux@1.0.0 dev:runtime
+> vite
+
+🚀 Generating initial UIKitML files for dev server...
+👁️  UIKitML file watcher started - monitoring for changes...
+7:14:08 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+
+  VITE v7.3.6  ready in 2588 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://198.19.0.2:5173/
+🖥️  IWSDK: Using SwiftShader (software rendering) — no GPU detected
+[browser:pageerror] TypeError: Cannot read properties of undefined (reading 'createEntity')
+    at GameSystem.createPanels (http://localhost:5173/src/game-system.ts:214:27)
+    at GameSystem.init (http://localhost:5173/src/game-system.ts:131:10)
+    at World2.registerSystem (http://localhost:5173/node_modules/.vite/deps/chunk-TTD5HGSZ.js?v=959d090b:1312:20)
+    at http://localhost:5173/src/index.ts:18:7
+7:19:04 AM [vite] (client) page reload src/game-system.ts
+[browser] [PanelUISystem] Error loading panel for entity 17: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1120.1KB
+  - Activation mode: localhost
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+  - Note: Runtime only activates on localhost/local networks
+
+
+🥽 IWSDK Dev Summary (Development):
+  - Device: metaQuest3
+  - Runtime injected: 1120.1KB
+  - Activation mode: localhost
+  - AI: agent mode (WebSocket at /__iwer_mcp)
+  - Note: Runtime only activates on localhost/local networks
+

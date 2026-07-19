@@ -1,0 +1,58 @@
+<panel>
+  <style>
+    .root {
+      flex-direction: column;
+      padding: 16;
+      gap: 6;
+      background-color: rgba(0, 8, 20, 0.92);
+      border-radius: 16;
+      border-color: #0088ff;
+      border-width: 2;
+    }
+    .title {
+      font-size: 24;
+      color: #00ccff;
+      align-self: center;
+    }
+    .item {
+      font-size: 11;
+      color: #4488aa;
+    }
+    .btn {
+      font-size: 18;
+      color: #00ffcc;
+      background-color: rgba(0, 40, 80, 0.8);
+      padding: 10;
+      border-radius: 8;
+      border-color: #006688;
+      border-width: 1;
+      width: 200;
+      text-align: center;
+      align-self: center;
+    }
+  </style>
+  <element class="root">
+    <text class="title">TROPHIES</text>
+    <text name="achv-0" class="item">[ ] First Drop</text>
+    <text name="achv-1" class="item">[ ] Color Burst</text>
+    <text name="achv-2" class="item">[ ] Double Up</text>
+    <text name="achv-3" class="item">[ ] Triple Threat</text>
+    <text name="achv-4" class="item">[ ] Flux Master</text>
+    <text name="achv-5" class="item">[ ] Rising Star</text>
+    <text name="achv-6" class="item">[ ] Neon Knight</text>
+    <text name="achv-7" class="item">[ ] Grid Lord</text>
+    <text name="achv-8" class="item">[ ] Flux Legend</text>
+    <text name="achv-9" class="item">[ ] Matcher</text>
+    <text name="achv-10" class="item">[ ] Chain Reactor</text>
+    <text name="achv-11" class="item">[ ] Column Clear</text>
+    <text name="achv-12" class="item">[ ] Row Sweep</text>
+    <text name="achv-13" class="item">[ ] Steady Hands</text>
+    <text name="achv-14" class="item">[ ] Tile Veteran</text>
+    <text name="achv-15" class="item">[ ] Tile Master</text>
+    <text name="achv-16" class="item">[ ] Regular</text>
+    <text name="achv-17" class="item">[ ] Dedicated</text>
+    <text name="achv-18" class="item">[ ] Zen Flow</text>
+    <text name="achv-19" class="item">[ ] Speed Demon</text>
+    <text name="btn-back" class="btn">BACK</text>
+  </element>
+</panel>

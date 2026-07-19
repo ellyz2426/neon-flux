@@ -1,0 +1,56 @@
+<panel>
+  <style>
+    .root {
+      flex-direction: column;
+      align-items: center;
+      padding: 20;
+      gap: 10;
+      background-color: rgba(0, 8, 20, 0.92);
+      border-radius: 16;
+      border-color: #0088ff;
+      border-width: 2;
+    }
+    .title {
+      font-size: 28;
+      color: #00ccff;
+    }
+    .section {
+      font-size: 16;
+      color: #00ffcc;
+    }
+    .text {
+      font-size: 13;
+      color: #6699aa;
+    }
+    .btn {
+      font-size: 18;
+      color: #00ffcc;
+      background-color: rgba(0, 40, 80, 0.8);
+      padding: 12;
+      border-radius: 8;
+      border-color: #006688;
+      border-width: 1;
+      width: 250;
+      text-align: center;
+    }
+  </style>
+  <element class="root">
+    <text class="title">HOW TO PLAY</text>
+    <text class="section">-- Controls --</text>
+    <text class="text">Left/Right: Move selector</text>
+    <text class="text">Trigger/Space: Drop tile</text>
+    <text class="text">Grip/Escape: Pause</text>
+    <text class="section">-- Rules --</text>
+    <text class="text">Drop colored tiles into the grid.</text>
+    <text class="text">Match 3+ same color in a row,</text>
+    <text class="text">column, or diagonal to clear them.</text>
+    <text class="text">Tiles auto-drop on a timer.</text>
+    <text class="text">Grid fills up = Game Over.</text>
+    <text class="section">-- Modes --</text>
+    <text class="text">Classic: Balanced, levels up</text>
+    <text class="text">Rush: Fast tiles, all 5 colors</text>
+    <text class="text">Zen: No game over, relax</text>
+    <text class="text">Challenge: Timed target score</text>
+    <text name="btn-back" class="btn">BACK</text>
+  </element>
+</panel>

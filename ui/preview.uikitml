@@ -1,0 +1,26 @@
+<panel>
+  <style>
+    .root {
+      flex-direction: column;
+      align-items: center;
+      padding: 8;
+      gap: 4;
+      background-color: rgba(0, 8, 20, 0.75);
+      border-radius: 8;
+      border-color: #004466;
+      border-width: 1;
+    }
+    .label {
+      font-size: 12;
+      color: #4488aa;
+    }
+    .color {
+      font-size: 16;
+      color: #00ffcc;
+    }
+  </style>
+  <element class="root">
+    <text name="txt-next" class="label">Next</text>
+    <text name="txt-color" class="color">cyan</text>
+  </element>
+</panel>

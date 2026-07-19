@@ -1,0 +1,58 @@
+<panel>
+  <style>
+    .root {
+      flex-direction: column;
+      align-items: center;
+      padding: 24;
+      gap: 14;
+      background-color: rgba(0, 8, 20, 0.92);
+      border-radius: 16;
+      border-color: #0088ff;
+      border-width: 2;
+    }
+    .title {
+      font-size: 36;
+      color: #00ffcc;
+    }
+    .subtitle {
+      font-size: 14;
+      color: #4488aa;
+    }
+    .btn {
+      font-size: 18;
+      color: #00ffcc;
+      background-color: rgba(0, 40, 80, 0.8);
+      padding: 12;
+      border-radius: 8;
+      border-color: #006688;
+      border-width: 1;
+      width: 280;
+      text-align: center;
+    }
+    .stats {
+      font-size: 13;
+      color: #336688;
+    }
+    .row {
+      flex-direction: row;
+      gap: 12;
+    }
+  </style>
+  <element class="root">
+    <text class="title">NEON FLUX</text>
+    <text class="subtitle">Tile Cascade Color Match</text>
+    <text name="btn-classic" class="btn">CLASSIC</text>
+    <text name="btn-rush" class="btn">RUSH</text>
+    <text name="btn-zen" class="btn">ZEN</text>
+    <text name="btn-challenge" class="btn">CHALLENGE</text>
+    <element class="row">
+      <text name="btn-settings" class="btn" style="width: 130">SETTINGS</text>
+      <text name="btn-achievements" class="btn" style="width: 130">TROPHIES</text>
+    </element>
+    <text name="btn-tutorial" class="btn">HOW TO PLAY</text>
+    <element class="row">
+      <text name="txt-best" class="stats">Best: 0</text>
+      <text name="txt-games" class="stats">Games: 0</text>
+    </element>
+  </element>
+</panel>
